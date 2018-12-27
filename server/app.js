@@ -19,6 +19,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+var allowCrossDomain = function (req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*');//自定义中间件，设置跨域需要的响应头。
+  res.header("Access-Control-Allow-Methods", "*");
+	res.header("Access-Control-Allow-Headers", "Content-Type,XFILENAME,XFILECATEGORY,XFILESIZE");
+  next();
+ };
+ 
+app.use(allowCrossDomain);//运用跨域的中间件
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

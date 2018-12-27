@@ -7,7 +7,7 @@ bin-release/
 # Other files and folders
 .settings/
 server/node_modules/
-
+vueclient/node_modules/
 # Executables
 *.swf
 *.air
