@@ -8,7 +8,7 @@ export default {
       antd: true,
       dva: true,
       dynamicImport: { webpackChunkName: true },
-      title: 'umiclient',
+      title: 'GoSketch',
       dll: false,
       
       routes: {
