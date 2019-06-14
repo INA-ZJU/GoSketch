@@ -20,7 +20,7 @@ async function transform(url) {
     path: path.resolve(__dirname, "../public/screenshot/", filename + ".jpg"),
     fullPage: true,
     type: "jpeg",
-    quality: 100
+    quality: 60
   });
   // pdf module
   // await page.pdf({

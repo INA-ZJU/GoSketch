@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.headerbox{
+.headerbox {
   height: 120px;
   display: flex;
   flex-direction: row;
@@ -24,82 +24,100 @@ img {
   height: 100%;
   width: 100%;
 }
-.aboutbox{
+.loginbox {
   color: white;
   font-size: 15px;
   font-weight: bold;
 }
-.aboutus{
+.login_text {
   cursor: pointer;
 }
-.content{
+.content {
   height: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.titlebox{
+.content2 {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.titlebox {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   color: white;
   height: 120px;
-  margin-top: 80px;
 }
-.maintitle{
+.maintitle {
   font-size: 50px;
   font-weight: 900;
 }
-.subtitle{
+.subtitle {
   font-size: 15px;
   font-weight: 100;
 }
-.handlebox{
-  height: 50px;
+.handlebox {
+  height: 20px;
   margin-top: 35px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.handleLR{
+.handleLR {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   width: 60%;
 }
-.handleBtn{
+.handleBtn {
   margin-left: 30px;
   font-size: 14px;
-  /* background-color: #ff9f43; */
-}
-.showbox{
-  height: 100%;
-  margin-top: 50px;
+  background: #fcad54 100%;
+  height: 45px;
+  width: 100px;
+  cursor: pointer;
+  color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  /* background-color: #ff9f43; */
 }
-.showboxleft{
+.showbox {
+  margin-top: 50px;
+  /* min-height:200px; */
+  display: flex;
+  direction: row;
+  justify-content: center;
+}
+.showboxleft {
   width: 50%;
   background: #ecf0f1;
   height: 100%;
 }
-.showboxleft_title{
+.showboxleft_title {
   height: 40px;
   background: white;
   padding-left: 30px;
 }
-.showboxleft_title p{
+.showboxleft_title p {
   font-size: 13px;
   font-weight: bold;
   line-height: 40px;
   color: black 85%;
 }
-.showboxleft_img{
+.showboxleft_img {
   /* padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 50px;
@@ -111,16 +129,16 @@ img {
   justify-content: center;
   overflow: hidden;
 }
-.spinWrapper{
+.spinWrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.showboxleft_img img{
+.showboxleft_img img {
   width: 80%;
 }
-.showboxright{
+.showboxright {
   width: 50%;
   background: white;
   height: 100%;
@@ -128,7 +146,7 @@ img {
   flex-direction: column;
   align-items: center;
 }
-.showboxright_titlebox{
+.showboxright_titlebox {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
@@ -136,17 +154,24 @@ img {
   align-items: center;
   justify-content: flex-start;
 }
-.showboxright_titlebox_subtitle
-{
-  color: #9B9B9B 100%;
+.showboxright_titlebox_subtitle {
+  color: #9b9b9b 100%;
   font-size: 16px;
 }
-.showboxright_titlebox_maintitle
-{
+.showboxright_titlebox_maintitle {
   color: black 85%;
   font-size: 20px;
   font-weight: bold;
 }
-.showboxright_tablebox{
+.showboxright_tablebox {
   width: 90%;
+}
+
+.mydatatable {
+  margin-top: 30px;
+}
+
+.tablebox{
+  width: 60%;
+  background: white;
 }
